@@ -5,7 +5,7 @@ class Artist
   attr_reader :songs
 
   extend Memorable::reset_all
-    extend Memorable::count
+  extend Memorable::count
 
   @@artists = []
 
